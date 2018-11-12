@@ -1,0 +1,128 @@
+body{ 
+	background-image: url(../images/dahon.jpg);
+	font-family: Century Gothic;
+	color: #fff;
+	background-repeat: no repeat;
+	text-align: center;
+}
+
+a{ 
+	text-decoration: none;
+}
+
+/* BUTTON SECTION */
+
+.button {
+	text-align: center;
+	background: #9db9ff;
+	padding: 10px 25px;
+	color: white;
+}
+
+.button:hover {
+	background: white;
+	color: #9db9ff;
+}	
+
+/* MAIN MENUN SECTION */
+
+#main-menu {
+	margin: 0;
+	padding: 0;
+	margin-bottom: 10px;
+	text-align: center;
+	list-style: none;
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(4, 1fr)
+}
+
+.main-header {
+	margin-bottom: 10px;
+}
+
+/* SHOWCASE SECTION */
+
+.showcase {
+	padding: 250px;
+	margin-bottom: 10px;
+	background-image: url(../images/climb.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no repeat;
+}	
+
+.showcase:hover{
+	background-image: url(../images/boy.jpg);
+}
+
+/* MAIN ARTICLE SECTION */
+
+.main-article {
+	
+	padding: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: 3fr 1fr;
+}	
+
+/*MAIN ARTICLE LEFT*/
+
+.main-article-left{
+	background: #2470a1;
+	padding: 0px;
+	display: grid;
+	grid-gap: 5px;
+	grid-template-columns: 1fr 1fr;
+	box-shadow: 0 0 5px black;
+	color: white;
+	margin-bottom: 10px;
+}
+
+.left-article{
+	padding: 10px;
+	text-align: justify;
+	background:  #68a7cf;
+	margin: 20px
+}
+
+.right-article{
+	color: white;
+	box-shadow: 0 0 5px black;
+	background:  #2470a1;
+	text-align: justify;
+	padding: 10px;
+	margin-bottom: 10px;
+}	
+
+.read {
+	margin-bottom: 10px;
+	text-align: center;
+	background: #9db9ff;
+	padding: 10px 25px;
+	color: white;
+}
+
+.read:hover {
+	background: white;
+	color: #9db9ff;
+}
+
+h3{
+	font-size: 25px;
+}
+
+p{
+	font-size: 15px;
+}
+
+/* FOOTER SECTION */
+
+.footer{
+	color: white;
+	background: #2470a1;
+	padding: 10px;
+	margin-bottom: 10px;
+}		
